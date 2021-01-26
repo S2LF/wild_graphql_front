@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+}
+.wrapper{
+    max-width: 1768px;
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.wrapper div{
+    max-width: 500px;
+    padding: 1em;
+    margin: 0.5em;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.wrapper h2{
+    text-align: center;
+}
+.wrapper h2.success{
+    background-color: green;
+    color: white;
+}
+.wrapper h2.failed{
+    background-color: red;
+    color: white;
+}
